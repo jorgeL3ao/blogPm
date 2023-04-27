@@ -1,0 +1,11 @@
+<h1>Artilcles</h1>
+
+<ul>   
+    <% @articles.each do |article| %>    
+     <li>
+        <%= link_to article.titlle, article%>
+        </a>
+     </li>
+    <% end %>   
+</ul>
+
